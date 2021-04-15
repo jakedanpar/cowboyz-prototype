@@ -9,36 +9,43 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Cowboyz Prototype.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Cowboyz Prototype" startnode="1" creator="Twine" creator-version="2.3.13" ifid="5F7A7814-24FE-45F3-B5EE-025795BEE3CD" zoom="1" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story[tags~="welcome-page"] {
-  background-image: url('images/BOOTS-2.png');
+<tw-storydata name="Cowboyz Prototype" startnode="1" creator="Twine" creator-version="2.3.13" ifid="5F7A7814-24FE-45F3-B5EE-025795BEE3CD" zoom="1" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+tw-passage[tags~="welcome-page"] {
+  text-align: center;
+  font-size: 20vh ; 20vw ; 20vmin ;
+  line-height: normal;
+  font-family: 'Rye', cursive;
+  background-image: url('images/boots-2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-tw-passage[tags~="welcome-page"] { text-align: center; }
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
-
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
-
-body, tw-story
-{ font-family: 'Patua One', cursive; }
-
-tw-passage { color:white; }
-
-tw-passage[tags~="welcome-page"] {
- text-align: center;
- font-size: 20vh ; 20vw ; 20vmin ;
- line-height: normal; }
+tw-story {
+  font-family: 'Libre Baskerville', serif;
+  font-size:150%;
+  color: black;
+  background-color: white;
+}
 
 tw-link { color:black; }
 
-.enchantment-link:hover, tw-link:hover { color:white; }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Title Page" tags="welcome-page" position="412,186" size="100,100">[[COWBOYZ]]
-🤠</tw-passagedata><tw-passagedata pid="2" name="COWBOYZ" tags="" position="412,336" size="100,100">(text-colour:black)+(background:white)[ It might be time to think about why cowboys are following me. Not real cow herders on horses of course, but the image of them, their culture. It’s a little surprising to be honest, given that I’m not someone who falls for the plastic-wrapped charm of the USA. But haughty hunks in broad brimmed hats have always appeared in popular culture. My memory of them in Red Dead Redemption and erotic advertisements is no exception. They’ve been the staple image of America’s Dream—perhaps more accurately Capitalism’s Dream. They are synonymous with heroism, machismo, and white man’s honour. All in all, not a very flattering package in progressive circles today; and yet, cowboys and their aesthetic are still widely [[celebrated]].]</tw-passagedata><tw-passagedata pid="3" name="celebrated" tags="" position="412,486" size="100,100">A cowboy in the modern world is also a cowgirl, a cowperson, an emoji. They are style icons who have roamed beyond the modest landscape of countryside ranches and into my inner circles. Clearly there is still something there in the spirit of these boot scootin’ babies which has adapted to modernity. Perhaps cowboys can tell us something about ‘The West’—now a borderless and arguably wilder part of the world—and what it represents today.
+.enchantment-link:hover, tw-link:hover { color:#C9720E; }
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Title Page" tags="welcome-page" position="412,186" size="100,100">
+[[COWBOYZ]]
+🤠</tw-passagedata><tw-passagedata pid="2" name="COWBOYZ" tags="" position="412,336" size="100,100">It might be time to think about why cowboys are following me. Not real cow herders on horses of course, but the image of them, their culture.
 
-This is a test line to see if repository works</tw-passagedata></tw-storydata>
+It’s a little surprising to be honest, given that I’m not someone who falls for the plastic-wrapped charm of the USA. But haughty hunks in broad brimmed hats have always appeared in popular culture. My memory of them in Red Dead Redemption and erotic advertisements is no exception. They’ve been the staple image of America’s Dream—perhaps more accurately Capitalism’s Dream.
+
+They are synonymous with heroism, machismo, and white man’s honour. 
+
+All in all, not a very flattering package in progressive circles today; and yet, cowboys and their aesthetic are still widely [[celebrated]].</tw-passagedata><tw-passagedata pid="3" name="celebrated" tags="" position="412,486" size="100,100">A cowboy in the modern world is also a cowgirl, a cowperson, an emoji. They are style icons who have roamed beyond the modest landscape of countryside ranches and into my inner circles.
+
+Clearly there is still something there in the spirit of these boot scootin’ babies which has adapted to modernity.
+
+Perhaps cowboys can tell us something about ‘The West’—now a borderless and arguably wilder part of the world—and what it represents today.</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,i=!1,a=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){i=!0,a=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw a}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
