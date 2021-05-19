@@ -42,14 +42,18 @@ tw-link { color:black; }
 .passage-image {
   width: 50%
 }
+
+.character {
+  position: absolute;
+  z-index: 1000000;
+}
+
+body[data-raining="0"] .character {
+  display: none;
+}
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">const uniqueRainCharacters = [
-  "&#x1f604",
-  "&#x1f607",
-  "&#x1f920",
-  "&#x1f631",
   "🤠",
 	"💣",
-  "&#x1F4EB"
 ];
 const totalCharacters = 60;
 const offSet = 20;
@@ -92,7 +96,7 @@ function makeItRain() {
   }
 }
 setUpRain();
-window.setInterval(makeItRain, 1);</script><tw-passagedata pid="1" name="Title Page" tags="welcome-page" position="203,34" size="100,100">
+window.setInterval(makeItRain, 10);</script><tw-passagedata pid="1" name="Title Page" tags="welcome-page" position="203,34" size="100,100">
 
  (transition-arrive: &quot;pulse&quot;) [[COWBOYZ]]</tw-passagedata><tw-passagedata pid="2" name="COWBOYZ" tags="" position="333,33" size="100,100">It might be time to think about why cowboys are following me. Not real cow herders on horses of course, but the image of them, their culture.
 
